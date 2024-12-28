@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "yhmt"
+version = "0.1.0"
+description = ""
+authors = ["Yannick Martel <ymartel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+click = "^8.1.8"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+yhmt = "yhmt.console:main"
